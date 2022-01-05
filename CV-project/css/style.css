@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing:antailiased;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    font-size: 1.125rem;
+    text-transform: capitalize;
+    color: ;
+
+}
+/* ==================== navbar design ================== */
+.logo{
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing:0.06rem;
+    -webkit-font-smoothing:antailiased;
+}
+.logo:hover{
+}
+span{
+    color: crimson;
+}
+.main-header{
+    -webkit-font-smoothing:analysed;
+    width: 100%;
+    height: ;
+    background: #020412;
+    color: #fff;
+    padding: 0 8.5%;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding:2rem 0;
+}
+ul li {
+    display: inline-block;
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.3s ease;
+    -webkit-font-smoothing:analysed;
+}
+ul li:hover{
+    color: crimson;
+}
+/* ==================== hero section property ================== */
+.hero{
+    width: 100%;
+    height: 90.7vh;
+    background:#020412;
+    color: #fff;
+}
+.container{
+}
+.title{
+}
+.text-box{
+    padding: 0 8.5%;
+    padding-top: 15%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+.title{
+    font-size: 4.5rem;
+    line-height: 10rem;
+    text-transform: capitalize;
+    -webkit-font-smoothing:analysed;
+}
+.sub-title{
+    -webkit-font-smoothing:analysed;
+
+}
+.text-box a{
+    -webkit-font-smoothing:analysed;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    color: crimson;
+    padding: 10px 30px;
+}
+.text-box .btn02{
+    background: crimson;
+    color: #fff;
+    margin-left: 30px;
+    font-weight: 600;
+    -webkit-font-smoothing:analysed;
+}
+img{
+    width: 550px;
+    position: absolute;
+    right: 15%;
+    bottom: 0 ;
+    background: transparent;
+}
+
